@@ -8,6 +8,7 @@ def emote():
         random_emoji = random_emoji*2 #random amount of emojis between words
     return random_emoji
 
+
 def entered(b):
     a = ' '
     for a in b:
@@ -21,8 +22,7 @@ def entered(b):
     b = b.replace('⠀', ' ')
     print(b)
 while True:
-    inp = input('enter text:')
-    entered(inp)
+    entered(input('enter text:'))
 
 #new list: 😀😁😂🤣😃😄😅😆😉😊😋😎😍😘🥰🤩🙄😛😜🤯😤😨😲😭🥵🤬🤮🥺😈🤓👹💀☠👽🐖🐏🦀💪✌🎈🍑🍆✈🔥⚡
 #old list: 😎🔥🤬😈🤙💥🔥🥰🦀♥️🖕👹😏💪✈✈️💥🤣🍉🔥😎🤙👹🤣💩🤮😈🤣💪🍉🍉🤭🥰🔥
